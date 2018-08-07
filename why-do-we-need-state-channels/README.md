@@ -12,3 +12,5 @@ State channels are a type of Layer 2 solution focused specifically on this sort 
 
 As a result, these transactions can happen very rapidly and very cheaply. If you'll recall, the two biggest blockchain scalability issues are cost and transaction speed; for interactions between two parties, state channels can solve those issues.
 
+A great resource for understanding Layer 2 solutions and the differences between them is Josh Stark's [Making Sense of Ethereum’s Layer 2 Scaling Solutions](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4).
+
