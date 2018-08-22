@@ -5,7 +5,7 @@
 Three steps:
 
 1. Two users lock the initial blockchain state \(e.g., each party's balance\) into a smart contract closely resembling a multisignature wallet. This ensures that the funds in the wallet can't be used elsewhere or removed until unlocked with an update that both parties have signed.
-2. The two parties transact by passing state updates \(e.g., balance updates\) amongst themselves. If both parties agree on a state update, it _could_ be submitted to the smart contract at any time to unlock funds. 
+2. The two parties transact by passing state updates \(e.g., balance updates\) amongst themselves. If both parties agree on a state update by "signing" it, it _could_ be submitted to the smart contract at any time to unlock funds. 
 3. When parties have finished transacting, they each submit state updates to the smart contract. If the state updates match, the blockchain state \(e.g., each party's balance\) is unlocked, typically in a different configuration than the initial state.
 
 **Alright, that makes sense. But what if they disagree?**
